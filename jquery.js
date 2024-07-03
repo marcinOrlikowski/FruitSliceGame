@@ -46,6 +46,9 @@ $("#fruit1").mouseover(function(){
     //update score
     $("#scorevalue").html(score);
 
+    //play sound
+    document.getElementById("slicesound").play();
+
     //stop fruit
     clearInterval(action);
     
